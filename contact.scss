@@ -1,0 +1,37 @@
+body,html{
+    margin: 0;
+    padding:0;
+
+}
+.navbar{
+    background-color: #FA6400;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    @media(min-width:1023px){
+        display: none !important;
+    }
+
+    }
+img{
+    position: absolute;
+    
+    @media(max-width:414px){
+        width: 250px;
+        top: 10%;
+    
+    }
+}
+@media(max-width:912px){  
+    nav{
+       
+        img{
+            
+            width: 0%;
+            
+            
+        }
+        
+    }
+ }
